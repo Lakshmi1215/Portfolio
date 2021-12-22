@@ -1,0 +1,190 @@
+body {
+    background-color: linear-gradient(fo left white, black);
+    height: 100vh;
+}
+
+#ONE {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    padding-left: 500px;
+    height: 300px;
+    width: auto;
+}
+
+h1 {
+    padding-left: 50PX;
+}
+
+.menu {
+    display: grid;
+    justify-content: end;
+    position: relative;
+    top: -100px;
+}
+
+h2 {
+    padding-left: 600px;
+    font-size: xx-large;
+    padding-top: 10PX;
+}
+
+H3 {
+    padding-left: 630px;
+    font-size: xx-large;
+    position: relative;
+    top: -20PX;
+    left: -50px;
+}
+
+.navbar {
+    width: 60px;
+    display: block;
+    margin: 50px auto;
+    border: 4px solid black;
+    padding: 8px 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.navbar div {
+    height: 5px;
+    background: black;
+    margin: 7px 0px 7px 0px;
+    border-radius: 25px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.two {
+    width: 35px;
+}
+
+.three {
+    width: 50px;
+}
+
+.navbar:hover div {
+    width: 60px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    font-size: xx-large;
+}
+
+li {
+    list-style-type: none;
+}
+
+#png {
+    width: 30px;
+    height: 30px;
+}
+
+#fb {
+    width: 30px;
+    height: 30px;
+}
+
+#insta {
+    width: 30px;
+    height: 30px;
+}
+
+#TWO {
+    display: flex;
+    position: relative;
+    top: -10PX;
+    color: maroon;
+}
+
+#HII {
+    position: relative;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container * {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar {
+    position: relative;
+    border: 2px solid #0d96e0;
+    border-radius: 20px;
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+}
+
+.skills:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#html-bar {
+    animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#css-bar {
+    animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#js-bar {
+    animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill {
+    100% {
+        width: 72%;
+    }
+}
+
+#jQuery-bar {
+    animation: jQuery-fill 2s forwards;
+}
+
+@keyframes jQuery-fill {
+    100% {
+        width: 58%;
+    }
+}
